@@ -1,0 +1,44 @@
+<div class="ManagerCss">
+	<div class="ManagerBanner">  
+	        <div class="banner-list"  style="background: #000 url('/images/banner1.jpg')  top  center no-repeat" ></div>
+	        <div class="banner-list"  style="background: #000 url('/images/banner2.jpg') top center no-repeat" ></div> 
+	        <div class="banner-list"  style="background: #000 url('/images/banner3.jpg') top center no-repeat" ></div> 
+	        <div class="banner-list"  style="background: #000 url('/images/banner4.jpg') top center no-repeat" ></div> 
+	        <ul class="btn">  
+	            <li dl="1" class="hov"></li>  
+	            <li dl="2"></li>  
+	            <li dl="3"></li>  
+	            <li dl="4"></li>  
+	        </ul>  
+	        <div style="clear: both;"></div>  
+	</div>  
+	<div class="managerTab">
+		<center><canvas id="myCanvas">a</canvas></center>
+		<table class="table"> 
+			<tbody>
+				<tr class="active">
+					<td>用户id</td>
+					<td>用户名</td>
+					<td>密码</td>
+					<td>编辑</td>
+					<td>删除</td>
+				</tr>
+				<tr class="success" ng-repeat="one in mod">
+					
+					<td>{{one._id}}</td>
+					<td>{{one.username}}</td>
+					<td>{{one.password}}</td>
+					<td>
+						<a href="/#/managerEdit/{{one._id}}" class="edit">编辑</a>
+					</td>
+					<td>
+						<a href="/#/managerDelete/{{one._id}}" class="delete">删除</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script type="text/javascript">
+
+	</script>
+</div>

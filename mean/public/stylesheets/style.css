@@ -1,0 +1,498 @@
+nav{
+	background: transparent;
+	height: 50px;
+}
+
+#banner{
+	height: 800px;
+	background: rgba(0,0,0,0.3);
+
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+nav div a i{
+	margin-right: 20px;
+}
+nav ul li,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 40px;
+}
+nav ul li a{
+	font-weight: 700;
+}
+
+nav a{
+	text-decoration: none;
+	line-height: inherit;
+	display: inline-block;
+	height: 100%;
+	color: #fff;
+}
+nav a:hover{
+	text-decoration: none;
+	color: rgba(255,255,255,0.7);
+}
+
+nav .logo{
+	float: left;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-left: 20px;
+}
+
+#banner .inner p{
+	font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 1.0;
+ 
+}
+#banner .inner .preview-speak{
+ 	color: #d3d3d3;
+	font-weight: 700;
+}
+#banner .inner .w-heading{
+	margin-top: 10px;
+    color: #e9ece3;
+    opacity: 0.8;
+}
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	top: 160px;
+}
+
+#banner .inner i{
+	color: #65635c;
+}
+
+h1{
+	margin: 0;
+}
+h2{
+	margin: 0;
+	padding-top: 50px;
+}
+
+button{
+	border: none;
+	background: #e2b41a;
+    color: #eceadf;
+	border-radius: 6px;
+}
+
+#banner .inner .more{
+	margin-top: 150px;
+	transition-duration: 500ms;
+}
+
+#banner .inner .more:hover{
+	transform:scale(1.1,1.1);
+	opacity: 0.5;
+}
+
+#banner .inner a{
+	text-decoration: none;
+}
+#banner .inner .LearnMore{
+	font-size: 16px;
+	font-weight: 600;
+	color: #c69db4;
+}
+
+#banner .inner .sub-heading{
+	line-height: 30px;
+	margin: 50px 10px auto;
+	color: #e9ece3;
+	opacity: 0.8;
+}
+
+#banner .signup {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  width: 140px;
+  transition: all 0.5s;
+  margin: 5px;
+
+}
+
+#banner .signup span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-weight: 800;
+}
+#banner .signup span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+#banner .signup:hover span{
+  padding-right: 35px;
+  opacity: 0.5;
+}
+
+#banner .signup:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.hr{
+	width: 100%;
+	margin: 0 auto;
+	height: 2px;
+}
+
+.wrapper{
+	max-width: 1080px;
+	margin:0 auto;
+
+}
+
+.green-section{
+	text-align: center;
+	background: #089DB0;
+	color: #fff;
+	padding: 20px 0;
+	min-height: 900px;
+}
+
+.green-section .wrapper canvas{
+	margin-top:35px;
+	margin-left: 90px;
+}
+
+.green-section .hr{
+	background: #078494;
+	width: 60%;
+	margin: 20px auto;
+}
+
+.green-section .icon-group span i{
+	transform:rotate(-45deg);
+	width: 100%;
+	padding-right: 10px;
+	padding-top: 14px;
+	padding-bottom: 11px;
+	opacity: 0.7;
+}
+
+.sub-heading2{
+	font-size: 18px;
+}
+
+.icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #0D6F7C;
+	transform: rotate(45deg);
+	margin:30px;
+}
+.icon-group{
+	margin-top: 60px;
+}
+
+.gray-section{
+	background:#252F34;
+	color: #fff;
+}
+
+.gray-section .img-section{
+	width: 45%;
+}
+.img-section img{
+	width: 100%;
+}
+.gray-section .text-section{
+	width: 55%;
+}
+
+.article-preview > div{
+float: left;
+font-size:0;
+}
+
+.article-preview:after{
+	content: '';
+	display:block;
+	clear:both;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.text-section{
+	position:relative;
+	top: 68px;
+	left: 50px;
+}
+
+.text-section h3{
+	margin-bottom: 20px;
+}
+
+.text-section p{
+	font-size:16px;
+	letter-spacing: 1px;
+}
+.text-section .sub-heading{
+	font-size: 18px;
+	margin-left: 13px;
+	color: #c0c4c8;
+}
+
+.text-section > *{
+	max-width: 90%;
+}
+.text-section .sub-context{
+	color: #dcdccd;
+}
+
+.article-preview:nth-child(odd){
+	background-color: rgba(255,255,255,0.05);
+}
+
+.pupple-section{
+	background: #262149;
+	color:#fff;
+	padding: 80px;
+}
+
+.pupple-section .heading-wrapper{
+	text-align: center;
+}
+
+.pupple-section .hr{
+	margin:20px auto;
+	background: #373259;
+	width: 60%;
+}
+.pupple-section .card-group{
+	margin-top: 50px;
+	width: 80%;
+	margin-left: 100px;
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 24px;
+}
+p{
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.20);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.24);
+}
+footer{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+ul{
+	margin:0;
+}
+ul.share-group{
+		list-style: none;
+		width: 1080px;
+		padding: 40px;
+		margin:0 auto;
+}
+ul.share-group li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+
+}
+.main-wrapper{
+	background: #444 url(../images/bg1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/*Register.ejs*/
+.register_Title{
+	font-size: 30px;
+	padding-bottom: 70px;
+
+    font-weight: 900;
+    color: #d7ecff;
+    letter-spacing: 8;
+}
+.register_main{
+	min-height: 900px;
+	background: #444 url(../images/bg_login2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.register_main label{
+	font-weight: 700;
+	font-size: 18px;
+	color: #b53a86;
+	padding: 1%;
+}
+/*Login.ejs*/
+.login_main .login_form{
+	width: 40%;
+	height: 40%;
+}
+.login_main .sub_login{
+	padding:12% 40% 30% 35%;
+}
+.login_main .sub_login label{
+	font-weight: 700;
+	font-size: 18px;
+	color: #b53a86;
+	padding: 1%;
+}
+.login_main .login_Btn{
+	display: inline-block;
+	position:center;
+	padding-left: 25%;
+	padding-top: 30px;
+}
+.login_main .login_Btn a{
+	min-width: 70px; 
+	border-radius: 4px; 
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.login_main .login_Btn button,.register_main .reg_Btn button{
+	min-width: 70px; 
+	border-radius: 4px; 
+	text-decoration: none;
+	font-weight: 600;
+	text-align: center;
+	padding-left: 18px;
+	padding-right: 18px;
+
+}
+.login_main .Login_Title{
+	font-size: 30px;
+	padding-bottom: 70px;
+	padding-left: 32%;
+    font-weight: 900;
+    color: #d7ecff;
+    letter-spacing: 8;
+}
+.login_main{
+	background: #444 url(../images/bg_login2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.login_main form p{
+	font-weight: 600;
+	font-size: 10px;
+	color: #fff;
+}
+.register_main p{
+	font-weight: 600;
+	font-size: 10px;
+	color: #fff;
+}
+/*Manager.ejs*/
+.managerTab table a{
+	border-radius: 3px;
+	padding:7px;
+	color: #fff;
+	font-weight: 450;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+.managerTab table .edit{
+	background:#000;
+}
+.managerTab table .delete{
+	background:red;
+}
+ .ManagerBanner ul li{ list-style: none; }  
+
+     .ManagerBanner{ 
+     	position: relative;
+     	width: 100%;
+     	height: 250px;
+     	overflow: hidden;
+     	margin:0 auto 50px auto;}  
+     .ManagerBanner .banner-list{  
+            position: absolute;  
+            top:0px;  
+            left: 0px;  
+            width: 100%;  
+            height: 600px;  
+        }  
+      .ManagerBanner .btn{  
+            position: absolute;  
+            bottom:10px;  
+            left: 45%;  
+            display: inline-block;  
+            padding: 5px 10px;  
+        }  
+       .ManagerBanner .btn li{  
+            display: block;  
+            float: left;  
+            height: 10px;  
+            width: 10px;  
+            border-radius: 50%;  
+            background-color: #ddd;  
+            margin: 0 5px;  
+        }  
+       .ManagerBanner .btn li.hov{  
+            background-color: #000;  
+        } 
+.ManagerCss{
+	background: #fff url(../images/bg_login4.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 950px;
+	overflow: hidden;
+}
